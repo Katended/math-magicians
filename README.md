@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>MOVIE REVIEW WEB APP</b></h3>
+  <h3><b>CALCULATOR</b></h3>
 
 </div>
 
@@ -31,22 +31,23 @@
 
 # 📖 LEADERBOARD WEB APP <a name="about-project"></a>
 
-**Movie review web app** is a web app which dynamically displays TV Shows and films from a public  API  and stores and retrieves reviews in the Involvement API.
+**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+Make simple calculations.
+Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
-  <summary>HTML5, CSS3 & Javascript</summary>
+  <summary>HTML5, CSS3 , Javascript,Redux</summary>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Displays movies from an external API**
-- **Home page**
-- **Pop up window with more data about the movie**
+- **Make Calculations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,14 +74,14 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 + cd my-folder
-git clone https://github.com/DebyGrey/movie-review-app
+git clone git@github.com:Katended/math-magicians.git
 
 
 ### Install
 
 To install this project run this into your terminal:
 
-+ git clone https://github.com/DebyGrey/movie-review-app
++ git clone git@github.com:Katended/math-magicians.git
 + run npm install to install all dependecies
 
 
@@ -109,12 +110,6 @@ You can deploy this project:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 **Deborah Fashoro**
-
-- GitHub: [@githubhandle](https://github.com/DebyGrey)
-- Twitter: [@twitterhandle](https://twitter.com/Deby_grey)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/deborah-fashoro)
 
 👤 **David Katende**
 
