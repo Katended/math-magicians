@@ -40,7 +40,7 @@ Read a random math-related quote.
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
-  <summary>HTML5, CSS3 , React.js, Javascript,Redux</summary>
+  <summary>JSX, CSS3 , React.js, Javascript,Redux</summary>
 </details>
 
 <!-- Features -->
