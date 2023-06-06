@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 LEADERBOARD WEB APP <a name="about-project"></a>
+# 📖 MATH MAGICIAN APP <a name="about-project"></a>
 
 **Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
@@ -40,7 +40,7 @@ Read a random math-related quote.
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
-  <summary>HTML5, CSS3 , Javascript,Redux</summary>
+  <summary>HTML5, CSS3 , React.js, Javascript,Redux</summary>
 </details>
 
 <!-- Features -->
