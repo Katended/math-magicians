@@ -1,39 +1,92 @@
-.App {
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+.header-nav li:first-child {
+  margin-left: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5em;
+}
+
+.align-left {
+  margin-right: auto;
+  width: 50%;
+  font-size: 4em;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.container > p {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.calculator-left > div {
+  flex: 0 0 33%;
+  background: rgba(184, 182, 182, 0.5);
+  margin: 1px;
+  padding: 2px;
+}
+
+.calculator-right > div {
+  flex: 0 0 19.7%;
+  margin: 1px;
+  background-color: #f5913e;
+}
+
+.container > div:first-child {
+  flex: 0 0 100%;
+  text-align: right;
+  background: rgba(100, 100, 100, 0.5);
+  font-size: 4em;
+  color: aliceblue;
+  padding-right: 5px;
+}
+
+.calculator-left {
+  display: flex;
+  font-size: 4em;
+  flex-wrap: wrap;
   text-align: center;
+  width: 78%;
+  color: black;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator-left > div:nth-child(13) {
+  flex: 0 0 66.3%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculator-right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  width: 22%;
+  font-size: 4em;
+  text-align: center;
 }
