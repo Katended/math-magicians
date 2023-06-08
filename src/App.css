@@ -1,39 +1,106 @@
-.App {
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+.header-nav li:first-child {
+  margin-left: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5em;
+}
+
+.align-left {
+  margin-right: auto;
+  width: 50%;
+  font-size: 4em;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.container > p {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.calculator-left > div {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 30%;
+  height: 60%;
+  border: 1px solid rgb(172, 171, 171);
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-right > div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 60%;
+  border: 1px solid rgb(172, 171, 171);
+  background-color: #f5913e;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container > div:first-child {
+  flex: 0 0 100%;
+  text-align: right;
+  background: #858693;
+  font-size: 2em;
+  color: aliceblue;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calculator-left {
+  display: flex;
+  font-size: 1em;
+  flex-wrap: wrap;
+  width: 78%;
+  height: 90%;
+  color: black;
+  align-items: center;
+  margin: 0;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculator-left > div:nth-child(13) {
+  flex: 0 0 66.6%;
+}
+
+.calculator-right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  width: 22%;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
 }
