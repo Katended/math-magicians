@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 function CalcFun() {
@@ -6,33 +6,18 @@ function CalcFun() {
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
 
-  useEffect(() => {
-    const handleClick = (event) => {
-      const res = calculate(
-        {
-          total,
-          next,
-          operation,
-        }, event.target.innerText,
-      );
-      setNext(res.next);
-      setTotal(res.total);
-      setOperation(res.operation);
-    };
-
-    const divs = document.querySelectorAll('div.button,div.operator');
-
-    divs.forEach((div) => {
-      div.addEventListener('click', handleClick);
-    });
-
-    // Cleanup function to remove the event listener
-    return () => {
-      divs.forEach((div) => {
-        div.removeEventListener('click', handleClick);
-      });
-    };
-  }, [total, next, operation]);
+  const handleClick = (event) => {
+    const res = calculate(
+      {
+        total,
+        next,
+        operation,
+      }, event.target.innerText,
+    );
+    setNext(res.next);
+    setTotal(res.total);
+    setOperation(res.operation);
+  };
 
   return (
     <section>
@@ -43,27 +28,27 @@ function CalcFun() {
           {next}
         </div>
         <div className="calculator-left" id="left">
-          <div className="button">AC</div>
-          <div className="button">+/-</div>
-          <div className="button">%</div>
-          <div className="button">7</div>
-          <div className="button">8</div>
-          <div className="button">9</div>
-          <div className="button">4</div>
-          <div className="button">5</div>
-          <div className="button">6</div>
-          <div className="button">1</div>
-          <div className="button">2</div>
-          <div className="button">3</div>
-          <div className="button">0</div>
-          <div className="button">.</div>
+          <button type="button" className="button" onClick={handleClick}>AC</button>
+          <button type="button" className="button" onClick={handleClick}>+/-</button>
+          <button type="button" className="button" onClick={handleClick}>%</button>
+          <button type="button" className="button" onClick={handleClick}>7</button>
+          <button type="button" className="button" onClick={handleClick}>8</button>
+          <button type="button" className="button" onClick={handleClick}>9</button>
+          <button type="button" className="button" onClick={handleClick}>4</button>
+          <button type="button" className="button" onClick={handleClick}>5</button>
+          <button type="button" className="button" onClick={handleClick}>6</button>
+          <button type="button" className="button" onClick={handleClick}>1</button>
+          <button type="button" className="button" onClick={handleClick}>2</button>
+          <button type="button" className="button" onClick={handleClick}>3</button>
+          <button type="button" className="button" onClick={handleClick}>0</button>
+          <button type="button" className="button" onClick={handleClick}>.</button>
         </div>
         <div className="calculator-right">
-          <div className="operator">+</div>
-          <div className="operator">x</div>
-          <div className="operator">-</div>
-          <div className="operator">+</div>
-          <div className="operator">=</div>
+          <button type="button" className="operator" onClick={handleClick}>+</button>
+          <button type="button" className="operator" onClick={handleClick}>x</button>
+          <button type="button" className="operator" onClick={handleClick}>-</button>
+          <button type="button" className="operator" onClick={handleClick}>+</button>
+          <button type="button" className="operator" onClick={handleClick}>=</button>
         </div>
       </div>
     </section>
