@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&display=swap');
 header {
   padding: 10px;
   display: flex;
@@ -31,14 +32,15 @@ section {
   display: flex;
   flex-direction: row;
   width: 50%;
-  margin: auto;
   padding: 10px;
+  float:right;
 }
 
 .container {
   display: flex;
   width: 50%;
   flex-wrap: wrap;
+  
 }
 
 .container > p {
