@@ -21,6 +21,7 @@ function CalcFun() {
 
   return (
     <section>
+      <div><h1>Let&apos;s do some math!</h1></div>
       <div className="container" id="container">
         <div className="result" id="result">
           {total}
@@ -57,9 +58,7 @@ function CalcFun() {
 
 function Calculator() {
   return (
-    <div>
-      <CalcFun />
-    </div>
+    <CalcFun />
   );
 }
 
