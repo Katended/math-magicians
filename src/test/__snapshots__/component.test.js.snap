@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Calculator correctly 1`] = `
+<section>
+  <div>
+    <h1>
+      Let's do some math!
+    </h1>
+  </div>
+  <div
+    className="container"
+    id="container"
+  >
+    <div
+      className="result"
+      id="result"
+    >
+      0
+    </div>
+    <div
+      className="calculator-left"
+      id="left"
+    >
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+    </div>
+    <div
+      className="calculator-right"
+    >
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`renders Header correctly 1`] = `
+<header>
+  <div
+    className="align-left"
+  >
+    Math Magicians
+  </div>
+  <nav
+    className="header-nav d-flex justify-content-end"
+  >
+    <ul
+      className="list-unstyled"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        |
+      </li>
+      <li>
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+        |
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`renders Home correctly 1`] = `
+<div>
+  <h1>
+    Welcome to our page!
+  </h1>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&aposs standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+  </p>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&aposs standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+  </p>
+</div>
+`;
+
+exports[`renders Quote correctly 1`] = `
+<div
+  className="quotes-container"
+>
+  <ul />
+</div>
+`;
