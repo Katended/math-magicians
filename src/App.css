@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&display=swap');
 
 header {
-  padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header-nav li {
@@ -12,19 +12,35 @@ header {
   font-size: 1.5em;
 }
 
+.quotes-container > ul > li {
+  list-style: none;
+  font-size: 1.5em;
+  width: 95%;
+  margin-top: 10%;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
 .header-nav li:first-child {
   margin-left: 0;
+}
+
+div > h1 {
+  margin-top: 2em;
+  margin-bottom: 0.2em;
+  padding: 1em;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   margin-right: 5em;
+  margin-top: 3em;
 }
 
 .align-left {
-  margin-right: auto;
-  width: 50%;
+  margin-left: auto;
+  width: 79%;
   font-size: 4em;
   padding: 0;
 }
@@ -32,9 +48,12 @@ nav {
 section {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 100%;
   padding: 10px;
-  float: right;
+}
+
+section :first-child {
+  width: 80%;
 }
 
 .container {
@@ -43,10 +62,13 @@ section {
   flex-wrap: wrap;
 }
 
-.container > p {
-  font-size: 2em;
+div > p {
+  font-size: 1.5em;
   display: flex;
   align-items: center;
+  width: 95%;
+  margin-left: 2em;
+  font-weight: bold;
 }
 
 .calculator-left > button {
@@ -71,6 +93,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .container > div:first-child {

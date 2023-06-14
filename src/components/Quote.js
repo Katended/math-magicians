@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Quotes = () => {
+function Quote() {
   const [quotes, setQuotes] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
@@ -31,7 +31,6 @@ const Quotes = () => {
 
   return (
     <div className="quotes-container">
-      <h1>Quotes</h1>
       <ul>
         {
           quotes.map((quote) => (
@@ -41,6 +40,6 @@ const Quotes = () => {
       </ul>
     </div>
   );
-};
+}
 
-export default Quotes;
+export default Quote;
