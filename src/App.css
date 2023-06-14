@@ -12,6 +12,15 @@ header {
   font-size: 1.5em;
 }
 
+.quotes-container > ul > li {
+  list-style: none;
+  font-size: 1.5em;
+  width: 95%;
+  margin-top: 10%;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
 .header-nav li:first-child {
   margin-left: 0;
 }
@@ -22,11 +31,6 @@ div > h1 {
   padding: 1em;
 }
 
-ul {
-  list-style: none;
-  font-size: large;
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -35,8 +39,8 @@ nav {
 }
 
 .align-left {
-  margin-right: auto;
-  width: 50%;
+  margin-left: auto;
+  width: 79%;
   font-size: 4em;
   padding: 0;
 }
@@ -58,10 +62,13 @@ section :first-child {
   flex-wrap: wrap;
 }
 
-.container > p {
-  font-size: 2em;
+div > p {
+  font-size: 1.5em;
   display: flex;
   align-items: center;
+  width: 95%;
+  margin-left: 2em;
+  font-weight: bold;
 }
 
 .calculator-left > button {
