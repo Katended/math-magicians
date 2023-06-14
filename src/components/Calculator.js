@@ -55,10 +55,12 @@ function CalcFun() {
   );
 }
 
-const Calculator = () => (
-  <div>
-    <CalcFun />
-  </div>
-);
+function Calculator() {
+  return (
+    <div>
+      <CalcFun />
+    </div>
+  );
+}
 
 export default Calculator;

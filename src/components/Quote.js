@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Quotes = () => {
+function Quote() {
   const [quotes, setQuotes] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
@@ -41,6 +41,6 @@ const Quotes = () => {
       </ul>
     </div>
   );
-};
+}
 
-export default Quotes;
+export default Quote;
