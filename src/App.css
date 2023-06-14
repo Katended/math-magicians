@@ -27,10 +27,6 @@ ul {
   font-size: large;
 }
 
-p {
-  margin-left: 2em;
-}
-
 nav {
   display: flex;
   flex-direction: row;
